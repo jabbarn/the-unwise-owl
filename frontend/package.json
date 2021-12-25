@@ -10,10 +10,13 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
-    "svelte": "^3.44.0",
+    "bulma": "^0.9.3",
     "sass": "^1.45.1",
-    "svelte-preprocess": "^4.10.1",
-    "bulma": "^0.9.3"
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.1"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "bulma-pageloader": "^0.3.0"
+  }
 }

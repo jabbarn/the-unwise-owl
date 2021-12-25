@@ -1,10 +1,3 @@
-<script context="module">
-    export const client = new effectsdk.EffectClient('jungle');
-</script>
-
-<script>
-    console.log(client)
-</script>
 <!-- // 57552cd230024d39880cdc6606b8de5e -->
 
 <div class="container has-text-centered">

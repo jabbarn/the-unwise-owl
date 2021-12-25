@@ -1,0 +1,14 @@
+<div>
+    <iframe src=${article_url} title="article" height="400" width="800"></iframe>
+    <h2>What is the narrative of this news article? 🦉</h2>
+    <p>Please provide a short, concise answer.</p>
+    <textarea name="textarea-answer" id="narrativeArticle" cols="30" rows="10"></textarea>
+    <h2>Is this article positive, negative or even neutral? 🦉</h2>
+    <input type='radio' name='radio-answer' id="sentimenArticle" label=''>Positive </input><br>
+    <input type='radio' name='radio-answer' id="sentimenArticle" label=''>Neutral</input><br>
+    <input type='radio' name='radio-answer' id="sentimenArticle" label=''>Negative</input><br>
+    <hr>
+    <button class="button is-primary" type="submit">Submit</button> 
+</div>
+<script></script>
+<style></style>
